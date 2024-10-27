@@ -27,6 +27,7 @@
 .card__descrição {
     display: flex;
     justify-content: space-between;
+    margin-botton: 0.5em;
 }
 
 .card__botões {
@@ -50,4 +51,27 @@
     color: var(--laranja);
     font-weight: 700;
     
+}
+
+.descrição__titulo-livro{
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descrição__texto {
+   font-size: 14px;
+} 
+
+.botões__item {
+    margin: 0 0.5em;
+} 
+
+.botões__ancora {
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
 }
