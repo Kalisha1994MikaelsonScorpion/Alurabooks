@@ -26,5 +26,6 @@
 
 .card__descrição{
     display: flex;
+    justify-content: space-between;
 }
     
